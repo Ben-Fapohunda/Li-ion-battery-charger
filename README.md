@@ -15,7 +15,7 @@ CH340C USB-to-UART bridge for programming and serial debugging
 AMS1117-3.3 regulator for the logic supply
 Design Approach
 
-The board is split into three functional blocks: power and charging, measurement, and control and display. Component values were selected around the charge current [X mA, set by R___], the shunt resistance and INA219 range, and the 3.3 V logic rail. The layout is a compact 2-layer board, with attention to current-carrying traces and the placement of the sense resistor.
+The board is split into three functional blocks: power and charging, measurement, and control and display. Component values were selected around the charge current [1 A, set by 1k R], the shunt resistance and INA219 range, and the 3.3 V logic rail. The layout is a compact 2-layer board, with attention to current-carrying traces and the placement of the sense resistor.
 
 Tools
 KiCad for schematic and PCB design, Arduino/megaTinyCore for ATtiny1614 firmware.
